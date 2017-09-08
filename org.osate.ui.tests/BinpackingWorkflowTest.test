@@ -7,9 +7,23 @@ Element-Version: 3.0
 External-Reference: 
 Id: _61p5MJShEeeAF5zjVeSWAA
 Runtime-Version: 2.2.0.201705230341
-Save-Time: 9/8/17 11:03 AM
+Save-Time: 9/8/17 11:39 AM
 Testcase-Type: ecl
 
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa
+Content-Type: text/plain
+Entry-Name: .description
+
+Simple test just to prove that we can test the workflows.
+
+-Select proj1 in the navigator
+-In the workflow, select the instance file
+-Open the scheduling protocols dialog
+-Check that "Processor proc_sub" is shown in the tree
+-Open the drop down for proc_sub and select DMS
+-Click away from the drop down
+-Check that the Scheduling Protocol column shows DMS
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa--
 ------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
 Content-Type: text/ecl
 Entry-Name: .content
